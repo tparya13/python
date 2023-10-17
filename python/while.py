@@ -215,7 +215,15 @@
 #     while(n>0):
 #         sum+=n
 #         n-=1
-#     print("the  sum is: ",sum)        
+#     print("the  sum is: ",sum)    
+
+
+
+# i=0
+# j=1
+# while j<50:
+#     print(j,end = "")
+#     i,j=j,i+j    
 
 
 
@@ -239,11 +247,12 @@
 
 """string functions"""
 
-s="    synnefo solutions    "
+# s="synnefo solutions"
 # print(len(s))
 # print(s.upper())
 # print(s.lower())
 # print(s.strip())
+# s="      synnefo solutions       "
 # print(s.replace("synnefo","novavi"))
   
 """split"""
