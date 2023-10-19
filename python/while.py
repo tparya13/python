@@ -266,3 +266,65 @@
 
 # s="apple orange graps mango"
 # print(s.find("s"))
+
+
+
+"""function with return"""
+ 
+# def add():
+#     a,b=10,20
+#     print(a+b)
+# print(add())
+# print(type(add()))     
+
+
+# def add():
+#     a,b=10,20
+#     return a+b
+# print(type(add()))
+    
+    
+    
+"""function with arguments and return"""
+
+# def add(a,b):
+#     return a+b
+# x=add(3,5)
+# print(x)    
+
+
+# l=int(input("enter the length: "))
+# w=int(input("enter the width: "))
+# def area(l,w):
+#     return l*w
+# area=area(l,w)
+# print("area=",area)    
+
+"""area"""
+# s=int(input("enter a number: "))
+# r=int(input("enter a number: "))
+# def add(s,r):
+#     return s+r
+# add=add(s,r)
+# print("add=",add)
+
+"""even or odd"""
+# r=int(input("enter the radius: "))
+# def area(r):
+#     return 3.14*r**2
+# area=area(r)
+# print("area=",area)
+
+"""largest"""
+# n=int(input("enter a number: "))
+# def even(n):
+#     return n%2
+# t=even(n)
+# if t==0:
+#     print("true")
+# else:
+#     print("false")
+
+
+          
+
