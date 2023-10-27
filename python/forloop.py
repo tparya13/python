@@ -45,27 +45,66 @@
 #         n=n+1
 #     print()   
 
-"""q=8"""
+"""q=9"""
+
+a=int(input("enter the number:"))
+sum=0
+while a!=0:
+    b=a%10 
+    sum=sum+b
+    a=a/10
+print(sum)  
+
+
+"""q=6"""
 
 # for i in range(1,6):
-#     for j in range(1,6-1):
+#     for j in range(1,6-i):
 #         print("",end="")
-#     for j in range(1,i+1):
+#     for j in range(i):    
 #         print("*",end="")
+#     print("/n")
+# for i in range(6,1):
+#     for j in range(i):
+#         print("*",end="")
+#     for j in range(1,6-1):
+#         print("*",end="")
+#     print("/n")   
+
+
+"""q=8"""
+
+# for i in range(0,4):
+#     for j in range(0,4-i-1):
+#         print(" ",end="")
+#     for j in range(0,i+1):
+#         print("* ",end="")
 #     print("\n")
 
 
+"""q=6"""
 
-"""q=9"""
+# for i in range(0,3):
+#     for j in range(0,3-i-1):
+#         print(" ",end="")
+#     for j in range(0,i+1):
+#         print("* ",end="")
+#     print("\n")
+    
+# for i in range(0,3-1):
+#     for j in range(0,i+1):
+#         print(" ",end="")
+#     for j in range(0,3-i-1):
+#         print("* ",end="")
+#     print("\n")
 
-# a=int(input("enter the number:"))
-# sum=0
-# while a!=0:
-#     b=a%10 
-#     sum=sum+b
-#     a=a/10
-# print(sum)  
+    
 
+
+     
+    
+     
+   
 
        
             
