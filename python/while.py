@@ -398,7 +398,7 @@
 #     else:
 #         return n*fact(n-1)
 # res=fact(0) 
-# print(res) 
+# 0print(res) 
 
 
 # a=100
@@ -406,10 +406,95 @@
 #     if b>=1:
 #         print(b)
 #         b=b-1
-#         asd(b)
+
+
+
+
+
+
+
+# asd(b)
 # asd(a)                     
                                                                                                                                                      
+"""exception"""
+
+# print("start")
+# try:
+#     a=10 
+#     b=0
+#     print(a/b)
+# except:
+#     print("cant divid by zero")
+# finally:
+#     print("this is final")
+# print("end")  
+
+
+# print("start")
+# try:
+#     a=20
+#     b=10
+#     print(a*b)   
+# except:
+#     print("cant divid by zero")
+# finally:0
+#     print("this is final")
+# print("end")   
+
+"""filehandling"""
+
+# file=open("demo.txt","r")   
+# s=file.readline()
+# print(s)
+# file.close() 
+
+
+# file=open("demo.txt","w") 
+# file.write("hello") 
+# file.close()  
+
+# file=open("demo.txt","a")    
+# file.write("hai")
+# file.close()   
+
+"""context"""
+
+# with open("demo.txt","w") as file:
+#     file.write("hai anu")
+
+
+# with open("demo.txt","r") as file:
+#     s=file.readline()
+#     print(s)
+
+"""lambda"""
+
+# s=lambda a,b:a*b
+# print(s(4,5))
+ 
+ 
+# def fun(a):
+#     return lambda b:a+b
+# x=fun(4)
+# print(x(5))
+
+
+"""functional programming"""
+
+# def add(a,b):
+#     return a+b
+# def sqr(x):
+#     return x**2
+# z=sqr(add(5,3))
+# print(z)
+
+
+"""module"""
+
+
+ 
     
+       
 
     
  
