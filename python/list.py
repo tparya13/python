@@ -26,7 +26,7 @@
 #     else:
 #         duplicate.append(i)
 #         print("list of duplicates",duplicate)   
+        
                                                   
-                                                  
-s=[10,20,40,100,5,2,1,100]    
-a=[]                                                                                                                                                                      
+s=[1,5,7,8,2]    
+print(s[::-1])                                                                                                                                                                     

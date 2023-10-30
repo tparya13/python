@@ -83,4 +83,18 @@
 # print("string is: ",s)
 # vowels="aeiouAEIOU"
 # count=sum(s.count(vowel)for vowel in vowels)
-# print("number of vowels=: ",count)            
+# print("number of vowels=: ",count)
+
+"""prime number"""
+# a=int(input("enter the string: "))
+# def prime(a):
+#     if (a==1):
+#         return False
+#     elif(a==2):
+#         return False
+#     else:
+#         for i in range(2,a):
+#             if (a%i==0):
+#                 return False
+#             return True
+# print(prime(a))                    
