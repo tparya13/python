@@ -98,3 +98,12 @@
 #                 return False
 #             return True
 # print(prime(a))                    
+
+"""discount"""
+def discount():
+    c=int(input("enter the amount: "))
+    d=int(input("enter the discount: "))
+    disc=(c*d)/100
+    amt=c-disc
+    return amt
+print("the amount is:",discount())
