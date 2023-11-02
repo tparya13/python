@@ -69,6 +69,57 @@
 # wild_animal=animal("white",4,2)
 # pet_animal.show()
 # wild_animal.show()
-                  
+
+
+
+# class vehicle:
+#     color="red"
+#     def engine(self):
+#         print("all vehicles have engine")
+# class car(vehicle):
+#     def fourwheel(self):
+#         print("car have fourwheel",self.color)
+# c=car()
+# c.fourwheel()
+# c.engine()  
+
+"""multilevel inheritence"""
+# class Granpa:
+#     def kashandi(self):
+#         print("kashandi family")
+#     def farmer(self):
+#         print("farmer") 
+# class Father(Granpa):
+#     def driver(self):
+#         print("driver")    
+#     def reader(self):
+#         print("reader")
+# class Me(Father):
+#     def swimming(self):
+#         print("swimming")
+#     def engineer(self):
+#         print("engineer")    
+# class Mechild(Me):
+#     def gamer(self):
+#         print("gamer")   
+# ob=Granpa()
+# ob.kashandi()   
+
+# """multiple inheritence"""
+# class Father:
+#     def driver(self):
+#         print("driver")
+# class Mother:
+#     def cook(self):
+#         print("cook") 
+# class girl(Father,Mother):
+#     def enginner(self):
+#         print("engineer")
+# g=girl()
+# g.enginner()   
+# g.cook()   
+# g.driver()          
+                                     
+                                   
     
  
