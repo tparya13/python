@@ -158,14 +158,65 @@
     
     
     
+    
+"""email validation"""    
+# import re
+# a=str(input("enter the email: "))
+# terms="^([a-zA-Z].+@[a-zA-Z]{2,}\.[a-zA-Z]{2,})$"
+# x=re.search(terms,a)
+# if x:
+#     print("validate") 
+# else:
+#     print("not validate")  
+
+
+"""password validation"""
+
+# import re
+# a=str(input("enter the password: "))
+# terms="^[A-Z]\w{3,}\W\w{2,}$"
+# x=re.search(terms,a)
+# if x:
+#     print("validate") 
+# else:
+#     print("not validate")  
+
+
+"""vowels"""
+
+# import re
+# a=str(input("enter the sentence: "))
+# terms="(a|e|i|o|u|A|E|I|O|U)"
+# x=re.findall(terms,a)
+# print(x) 
+# print(len(x))
+
+
+"""combain username,email and password"""
 import re
+a=str(input("enter the user name: "))
+terms="^([A-Za-z]\W{4,20}$)"
+r=re.search(terms,a)
 a=str(input("enter the email: "))
-terms="^([a-zA-Z]{12}\d{3})[@]([a-z]{10}[.])([in]|[com])$"
+terms="^([a-zA-Z].+@[a-zA-Z]{2,}\.[a-zA-Z]{2,})$"
 x=re.search(terms,a)
-if x:
-    print("validate") 
+a=str(input("enter the password: "))
+terms="^[A-Z]\w{3,}\W\w{2,}$"
+y=re.search(terms,a)
+if r:
+    print("user name validate")
 else:
-    print("not validate")  
+    print("username not validate")    
+if x:
+    print("email validate") 
+else:
+    print("email not validate")
+
+if y:
+    print("password validate") 
+else:
+    print("password not validate")  
+     
   
     
      
