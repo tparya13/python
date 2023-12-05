@@ -60,8 +60,7 @@
 # if x:
 #     print("matched") 
 # else:
-#     print("not matched") 
-   
+#     print("not matched")    
      
 
 # import re
@@ -70,8 +69,7 @@
 # if x:
 #     print("matched") 
 # else:
-#     print("not matched") 
-   
+#     print("not matched")    
      
      
 # import re
@@ -80,9 +78,7 @@
 # if x:
 #     print("matched") 
 # else:
-#     print("not matched")  
-
-  
+#     print("not matched")    
      
 # import re
 # terms="hel{2}o"
@@ -90,9 +86,7 @@
 # if x:
 #     print("matched") 
 # else:
-#     print("not matched")
-
-    
+#     print("not matched")    
  
 # import re
 # terms="\d"
@@ -112,7 +106,36 @@
 #     print("not matched") 
 
 
+# import re
+# terms="^[5-9]\d{9}$"
+# x=re.search(terms,"5578156789")
+# if x:
+#     print("validate") 
+# else:
+#     print("not validate")   
 
+
+
+# import re
+# a=str(input("enter the user name: "))
+# terms="^[a-zA-Z]\w{3,25}$"
+# x=re.search(terms,a)
+# if x:
+#     print("validate") 
+# else:
+#     print("not validate") 
+
+
+# import re
+# a=str(input("enter the date: "))
+# terms="(^[012]\d|3[01])-([0]\d|1[012])-\d{4}$"
+# x=re.search(terms,a)
+# if x:
+#     print("validate") 
+# else:
+#     print("not validate") 
+    
+    
 # import re
 # terms="^[5-9]\d{9}$"
 # x=re.search(terms,"5578156789")
@@ -155,8 +178,6 @@
 #     print("validate") 
 # else:
 #     print("not validate")    
-    
-    
     
     
 """email validation"""    
@@ -216,13 +237,24 @@ if y:
     print("password validate") 
 else:
     print("password not validate")  
-     
+
   
-    
+ 
+
+ 
+
+
+
+
+         
      
        
      
-              
-     
-       
-     
+
+
+
+
+
+
+  
+                 
