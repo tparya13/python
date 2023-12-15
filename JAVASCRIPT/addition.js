@@ -1,6 +1,8 @@
 function add(){
-    let a=parseInt(document.getElementById('fno').Value)
-    let b=parseInt(document.getElementById('sno').Value)
-    let c=a+b
-    console.log(c)
+    console.log('ha');
+    let a=parseInt(document.getElementById('fno').value)
+    let b=parseInt(document.getElementById('sno').value)
+    c=a+b
+    console.log(c);
+   
 }
